@@ -8,15 +8,13 @@ networkx version  1.10
 
 This folder contains 7 python scripts for different tasks:
 
-1. extractor: Gets the news by mainstreaming the articles from the news websites. It extracts
-the information needed and gives a dictionary.
+1. extractor: Gets the news by mainstreaming the articles from the news websites. It extracts the information needed and gives a dictionary.
 
 2. text_processing: It contains the functions to process the text, clean it and create tokens from the text.
 
-3. tfidf_cosine: contains two functions one to get the tf-idf of each document among a corpus (or collenction of texts)
-and the cosine similarity function.
+3. tfidf_cosine: contains two functions one to get the tf-idf of each document among a corpus (or collenction of texts) and the cosine similarity function.
 
-4. Network Analysis: Contains the functions to get the average shorthest path, average degree and clustering coefficient 
+4. Network Analysis: Contains the functions to get the average shortest path, average degree and clustering coefficient 
 of the networks.
 
 5. news-graph: Constructs the graph by giving the cosine similarity measure.
